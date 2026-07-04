@@ -1,6 +1,6 @@
 # Security Policy
 
-This is the default security policy for public repositories owned by @prprnya. Individual repositories may provide their own `SECURITY.md`; when they do, the repository-specific policy takes precedence.
+This is the default security policy for public repositories owned by [@prprnya](https://github.com/prprnya). Individual repositories may provide their own `SECURITY.md`; when they do, the repository-specific policy takes precedence.
 
 ## Reporting a vulnerability
 
@@ -22,7 +22,7 @@ Reports may be written in English or Chinese.
 
 ## Scope
 
-This policy applies by default to public repositories owned by @prprnya that do not define their own security policy.
+This policy applies by default to public repositories owned by [@prprnya](https://github.com/prprnya) that do not define their own security policy.
 
 The following are generally in scope:
 

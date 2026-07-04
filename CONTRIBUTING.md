@@ -2,7 +2,7 @@
 
 Thanks for your interest in contributing.
 
-This document is the default contributing guide for public repositories owned by @prprnya. Individual repositories may provide their own `CONTRIBUTING.md`; when they do, the repository-specific guide takes precedence.
+This document is the default contributing guide for public repositories owned by [@prprnya](https://github.com/prprnya). Individual repositories may provide their own `CONTRIBUTING.md`; when they do, the repository-specific guide takes precedence.
 
 ## Before you start
 
