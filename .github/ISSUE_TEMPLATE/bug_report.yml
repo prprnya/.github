@@ -1,0 +1,98 @@
+name: 🪳 Bug report
+description: Report a reproducible problem.
+title: "[BUG] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug.
+
+        Please do not use this form for security vulnerabilities or Code of Conduct reports. Use the private reporting channels linked from the issue chooser instead.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Briefly describe the problem.
+      placeholder: What went wrong?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Provide the smallest set of steps that reproduces the issue.
+      placeholder: |
+        1. Go to ...
+        2. Run ...
+        3. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Affected area
+      description: Select the closest matching area.
+      options:
+        - Documentation
+        - Build or dependencies
+        - Runtime behavior
+        - User interface
+        - Tests or CI
+        - Release or deployment
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include versions, operating system, browser, package manager, runtime, or deployment context if relevant.
+      placeholder: |
+        OS:
+        Browser:
+        Runtime:
+        Package manager:
+        Version / commit:
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, screenshots, or additional context
+      description: Add any details that may help diagnose the issue.
+      render: text
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues before opening this report.
+          required: true
+        - label: I have provided enough information to reproduce or understand the problem.
+          required: true
+        - label: This is not a security vulnerability or Code of Conduct report.
+          required: true
